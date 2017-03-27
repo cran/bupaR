@@ -24,6 +24,19 @@
 #' \code{\link{activity_instance_id}},\code{\link{lifecycle_id}},
 #'  \code{\link{timestamp}}
 #'
+#' @examples
+#' data <- data.frame(case = rep("A",5),
+#' activity_id = c("A","B","C","D","E"),
+#' activity_instance_id = 1:5,
+#' lifecycle_id = rep("complete",5),
+#' timestamp = 1:5,
+#' resource = rep("resource 1", 5))
+#' eventlog(data,case_id = "case",
+#' activity_id = "activity_id",
+#' activity_instance_id = "activity_instance_id",
+#' lifecycle_id = "lifecycle_id",
+#' timestamp = "timestamp",
+#' resource_id = "resource")
 #'
 #' @export eventlog
 

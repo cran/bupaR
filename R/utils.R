@@ -10,8 +10,7 @@ load <- c("edeaR","petrinetR")
 	if (length(needed) == 0)
 		return()
 
-	packageStartupMessage(paste0("Loading bupaR: ", needed, collapse = "\n"))
-	lapply(needed, library, character.only = TRUE, warn.conflicts = FALSE)
+	suppressWarnings(suppressPackageStartupMessages(lapply(needed, require, character.only = TRUE, warn.conflicts = FALSE)))
 
 }
 

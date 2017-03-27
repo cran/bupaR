@@ -12,10 +12,8 @@
 #' both is returned.
 #'
 #' @seealso \code{\link{cases}}, \code{\link{eventlog}}
-#' @examples
 #'
-#' data(example_log)
-#' traces(example_log)
+
 #'
 #' @export traces
 
