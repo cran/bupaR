@@ -16,4 +16,3 @@ durations(eventlog, units = "days")
 Computes the throughput times of each case.
 Throughput time is defined as the interval between the start of the first event and the completion of the last event.
 }
-

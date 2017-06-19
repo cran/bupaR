@@ -22,4 +22,3 @@ Activity sequences are based on the start timestamp of activities.
 \seealso{
 \code{\link{cases}}, \code{\link{eventlog}}
 }
-

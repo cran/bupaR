@@ -15,4 +15,3 @@ Get the  timestamp classifier of an object of class \code{eventlog}
 \seealso{
 \code{\link{eventlog}}
 }
-

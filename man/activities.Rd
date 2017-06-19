@@ -16,4 +16,3 @@ Returns a \code{tbl_df}  containing a list of all activity types in the event lo
 \seealso{
 \code{\link{activity_id}},\code{\link{activity_instance_id}}, \code{\link{eventlog}}
 }
-

@@ -2,7 +2,15 @@
 #' @export
 magrittr::`%>%`
 
-load <- c("edeaR","petrinetR")
+#' @importFrom dplyr sample_n
+#' @export
+dplyr::sample_n
+
+#' @importFrom dplyr slice
+#' @export
+dplyr::slice
+
+load <- c("edeaR","petrinetR", "eventdataR","processmapR","processmonitR","xesreadR")
 
 .onAttach <- function(...) {
 	needed <- load[!is_attached(load)]
@@ -10,7 +18,24 @@ load <- c("edeaR","petrinetR")
 	if (length(needed) == 0)
 		return()
 
-	suppressWarnings(suppressPackageStartupMessages(lapply(needed, require, character.only = TRUE, warn.conflicts = FALSE)))
+	needed_installed <- suppressWarnings(suppressPackageStartupMessages(sapply(needed, require, character.only = TRUE, warn.conflicts = FALSE)))
+
+	no_installed <- needed[!needed_installed]
+
+	if(length(no_installed) > 0) {
+		packageStartupMessage(paste0("bupaR works best with the following package(s) installed: ", toString(no_installed),
+			". \nDo you want to install these?\n"))
+		answer <- readline("Y/N: ")
+
+		if(answer == "Y"){
+			lapply(no_installed, install.packages)
+		}
+
+		if(answer == "Y"){
+			suppressWarnings(suppressPackageStartupMessages(sapply(no_installed, require, character.only = TRUE, warn.conflicts = FALSE)))
+		}
+	}
+
 
 }
 

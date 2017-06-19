@@ -2,11 +2,14 @@
 % Please edit documentation in R/eventlog.R
 \name{eventlog}
 \alias{eventlog}
+\alias{ieventlog}
 \title{Eventlog}
 \usage{
 eventlog(eventlog, case_id = NULL, activity_id = NULL,
   activity_instance_id = NULL, lifecycle_id = NULL, timestamp = NULL,
   resource_id = NULL)
+
+ieventlog(eventlog)
 }
 \arguments{
 \item{eventlog}{The data object to be used as event log. This can be a
@@ -49,4 +52,3 @@ resource_id = "resource")
 \code{\link{activity_instance_id}},\code{\link{lifecycle_id}},
  \code{\link{timestamp}}
 }
-

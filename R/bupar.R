@@ -7,6 +7,8 @@
 #' @importFrom data.table data.table
 #' @importFrom data.table :=
 #' @import dplyr
+#' @import shiny
+#' @import miniUI
 #' @importFrom stats median
 #' @importFrom stats na.omit
 #' @importFrom stats quantile
@@ -18,7 +20,7 @@
 
 globalVariables(c(".",".N","absolute_frequency", "activity_instance_classifier","case_classifier", "duration",
 				  "event_classifier",
-				  "relative_frequency","timestamp_classifier","trace_id"))
+				  "relative_frequency","timestamp_classifier","trace_id", "filter_case", "install.packages"))
 
 NULL
 

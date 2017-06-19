@@ -16,4 +16,3 @@ Get the activity classifier of an object of class \code{eventlog}.
 \code{\link{eventlog}}, \code{\link{case_id}}, \code{\link{activity_instance_id}},
 \code{\link{timestamp}}
 }
-
