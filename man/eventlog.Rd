@@ -33,6 +33,7 @@ A function to instantiate an object of class \code{eventlog} by specifying a
 timestamp classifiers.
 }
 \examples{
+\dontrun{
 data <- data.frame(case = rep("A",5),
 activity_id = c("A","B","C","D","E"),
 activity_instance_id = 1:5,
@@ -45,7 +46,7 @@ activity_instance_id = "activity_instance_id",
 lifecycle_id = "lifecycle_id",
 timestamp = "timestamp",
 resource_id = "resource")
-
+}
 }
 \seealso{
 \code{\link{case_id}}, \code{\link{activity_id}},

@@ -10,6 +10,14 @@ dplyr::sample_n
 #' @export
 dplyr::slice
 
+#' @importFrom dplyr group_by
+#' @export
+dplyr::group_by
+
+#' @importFrom dplyr mutate
+#' @export
+dplyr::mutate
+
 load <- c("edeaR","petrinetR", "eventdataR","processmapR","processmonitR","xesreadR")
 
 .onAttach <- function(...) {

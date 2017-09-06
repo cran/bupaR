@@ -25,6 +25,7 @@
 #'  \code{\link{timestamp}}
 #'
 #' @examples
+#' \dontrun{
 #' data <- data.frame(case = rep("A",5),
 #' activity_id = c("A","B","C","D","E"),
 #' activity_instance_id = 1:5,
@@ -37,7 +38,7 @@
 #' lifecycle_id = "lifecycle_id",
 #' timestamp = "timestamp",
 #' resource_id = "resource")
-#'
+#' }
 #' @export eventlog
 
 
@@ -112,7 +113,9 @@ eventlog <- function(eventlog,
 	else {
 		if(!(timestamp %in% colnames(eventlog)))
 			stop("Timestamp classifier not found")
-		else
+		else if(!any(c("POSIXct","Date") %in% (eventlog %>% pull(!!as.symbol(timestamp)) %>% class()))) {
+			stop("Timestamp should be a POSIXct or Date variable.")
+		} else
 			attr(eventlog, "timestamp") <- timestamp
 	}
 	if(is.null(resource_id)) {

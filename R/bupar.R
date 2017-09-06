@@ -9,6 +9,7 @@
 #' @import dplyr
 #' @import shiny
 #' @import miniUI
+#' @importFrom purrr map
 #' @importFrom stats median
 #' @importFrom stats na.omit
 #' @importFrom stats quantile
