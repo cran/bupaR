@@ -1,8 +1,8 @@
 Package: bupaR
 Type: Package
 Title: Business Process Analysis in R
-Version: 0.4.0
-Date: 2018-03-21
+Version: 0.4.1
+Date: 2018-07-01
 Authors@R: person("Gert","Janssenswillen", email = "gert.janssenswillen@uhasselt.be", 
   role = c("aut","cre"))
 Description: Comprehensive Business Process Analysis toolkit. Creates S3-class for event log objects, and related handler functions. Imports related packages for filtering event data, computation of descriptive statistics, handling of 'Petri Net' objects and visualization of process maps. See also packages 'edeaR','processmapR', 'eventdataR' and 'processmonitR'.
@@ -15,8 +15,8 @@ Imports: magrittr, dplyr, data.table, shiny, miniUI, purrr, tidyr,
 URL: https://www.bupar.net
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2018-03-21 16:13:05 UTC; lucp8407
+Packaged: 2018-07-01 22:22:43 UTC; lucp8407
 Author: Gert Janssenswillen [aut, cre]
 Maintainer: Gert Janssenswillen <gert.janssenswillen@uhasselt.be>
 Repository: CRAN
-Date/Publication: 2018-03-21 22:35:09 UTC
+Date/Publication: 2018-07-01 22:50:03 UTC
