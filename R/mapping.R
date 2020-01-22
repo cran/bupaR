@@ -26,3 +26,17 @@ mapping.eventlog <- function(eventlog) {
 	return(mapping)
 	}
 
+#' @describeIn mapping Retrieve identifier mapping from activitylog
+#' @export
+mapping.activitylog <- function(eventlog) {
+	mapping <- list()
+
+	mapping$case_identifier <- case_id(eventlog)
+	mapping$activity_identifier <- activity_id(eventlog)
+	mapping$lifecycle_identifiers <- lifecycle_ids(eventlog)
+	mapping$resource_identifier <- resource_id(eventlog)
+
+	class(mapping) <- c("activitylog_mapping",class(mapping))
+
+	return(mapping)
+}

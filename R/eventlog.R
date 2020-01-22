@@ -44,8 +44,13 @@
 #' }
 #' @export eventlog
 
+eventlog <- function(eventlog, case_id, activity_id, activity_instance_id, lifecycle_id, timestamp, resource_id, order, validate) {
+	UseMethod("eventlog")
+}
 
-eventlog <- function(eventlog,
+#' @export
+
+eventlog.data.frame  <- function(eventlog,
 					 case_id = NULL,
 					 activity_id = NULL,
 					 activity_instance_id = NULL,

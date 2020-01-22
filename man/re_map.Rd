@@ -4,12 +4,12 @@
 \alias{re_map}
 \title{Re map}
 \usage{
-re_map(eventlog, eventlog_mapping)
+re_map(x, mapping)
 }
 \arguments{
-\item{eventlog}{The event log data to be used.}
+\item{x}{The eventlog/activitylog data to be used.}
 
-\item{eventlog_mapping}{An existing eventlog mapping created by the mapping function}
+\item{mapping}{An existing eventlog mapping created by the mapping function}
 }
 \description{
 Construct an eventlog using an existing mapping.
