@@ -4,7 +4,7 @@
 \alias{convert_timestamps}
 \title{Convert timestamp format}
 \usage{
-convert_timestamps(x, columns, format = ymd_hms)
+convert_timestamps(x, columns, format)
 }
 \arguments{
 \item{x}{Data.frame containing events or activities.}
@@ -20,6 +20,7 @@ Data.frame with converted timestamps
 Function converting the timestamps in the data frame to the appropriate format.
 }
 \seealso{
-Other Eventlog construction helpers: \code{\link{assign_instance_id}}
+Other Eventlog construction helpers: 
+\code{\link{assign_instance_id}()}
 }
 \concept{Eventlog construction helpers}
