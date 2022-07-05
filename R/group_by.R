@@ -1,0 +1,52 @@
+#' @title Group event log
+#' @name group_by
+#' @param .data \code{\link{log}}: Object of class \code{\link{eventlog}} or \code{\link{activitylog}}.
+#' @param ... Variables to group by
+#' @param .add Add grouping variables to existing ones
+#' @importFrom dplyr group_by
+#' @export
+dplyr::group_by
+#' @export
+group_by.eventlog <- function(.data, ..., .add = F) {
+
+
+	mapping <- mapping(.data)
+	.data <- as.data.frame(.data)
+	x <- group_by(.data, ..., .add = .add)
+	class(x) <- c("grouped_eventlog", "grouped_log", "eventlog", "log", class(x))
+
+	return(x)
+
+}
+
+#' @export
+group_by.activitylog <- function(.data, ..., .add = F) {
+
+	mapping <- mapping(.data)
+	.data <- as.data.frame(.data)
+	x <- group_by(.data, ..., .add = .add)
+	class(x) <- c("grouped_activitylog","grouped_log","activitylog", "log", class(x))
+
+	return(x)
+
+}
+
+#' @export
+
+group_by.grouped_log <- function(.data, ..., .add = F) {
+	mapping <- mapping(.data)
+	groups <- groups(.data)
+	.data <- as.data.frame(.data)
+	if(.add) {
+		x <- group_by(.data, across(one_of(paste(groups)))) %>% group_by(..., .add = T)
+	} else {
+		x <- group_by(.data, ...)
+	}
+	class(x) <- class(.data)
+
+	return(x)
+}
+
+
+
+
