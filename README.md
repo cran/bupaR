@@ -48,8 +48,8 @@ devtools::install_github("bupaverse/bupaR")
 
 ## Example
 
-The [bupaR Documentation](https://bupar.net/getting_started.html)
-website contains more details on getting started with *Business Process
+The [bupaR Documentation](https://bupaverse.github.io/docs/) website
+contains more details on getting started with *Business Process
 Analysis* using **bupaR**.
 
 ``` r

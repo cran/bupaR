@@ -1,7 +1,7 @@
-b57bfe23865b9a11b9f9f7619868be02 *DESCRIPTION
+b3038626e780c61ddc9440e93f0a47c2 *DESCRIPTION
 1680e5e294fb761b940754053bc90f88 *LICENSE
-2b1d6e9c01c8b71eeff712e8fc89842d *NAMESPACE
-7aa4c47b7c628826d71b459a9fb986e6 *NEWS.md
+883c6b35140435d72a9c5f7b8fcc3a82 *NAMESPACE
+79bff8182cf054e6d67c5d2e2bebcce0 *NEWS.md
 7926a0b1d8ccd48c49d42c7ff2eca494 *R/act_collapse.R
 2f8c8cc5b253e4151df4c9089ff55606 *R/act_recode.R
 d9ce19b4a415ef98a53476c45685d1eb *R/act_unite.R
@@ -12,7 +12,7 @@ d9ce19b4a415ef98a53476c45685d1eb *R/act_unite.R
 90428941632a4d369baaf8f184c187a3 *R/activity_labels.R
 d7c998a208b8ec11407590957423d112 *R/activitylog.R
 0f9199f3324fa3d54641a86d09d6cdd0 *R/add_start_end_activity.R
-2ca6cba386b070001ca38f18e95fc4b8 *R/arrange.R
+4635978146dd532d38834e026f4a60c3 *R/arrange.R
 ef8cbe41fedef36e31b14d95cc4c8828 *R/assign_instance_id.R
 e356cbe9459973ef177822d1f4b1ecdf *R/bupar.R
 74f4b7afc33205a90fbda8ee48ec4991 *R/case_id.r
@@ -20,6 +20,7 @@ e356cbe9459973ef177822d1f4b1ecdf *R/bupar.R
 b921661b7724105fba6f3544c5b2620f *R/case_list.R
 3fb3834e5825c81a0330905616f2d1c6 *R/cases.r
 f4db55d0cfbddfa2cca6bbda22e4f3f1 *R/convert_timestamps.R
+722c120e95197a5aab2ac3d53107342b *R/count.R
 7f8232f0d2d4deeda71a58029f5cd3d1 *R/detect_resource_inconsistencies.R
 ecfd4e354bf412bb5338ed43ef52a55d *R/durations.R
 010a0bf7402433862d2e1ce4a2c5f429 *R/eventlog.R
@@ -58,6 +59,7 @@ d2760bea6f7be3c3faf97ff09c0aff82 *R/n_traces.R
 bdaa8d6088e3f067b7aa0be9a6acca7f *R/print.eventlog.R
 8702b0a5e2593ba363bb595ea2e782ce *R/print.mapping.R
 846867f5a053211ce4ca9849ca140b55 *R/re_map.R
+67637128e4dfb072a7723e2c81fc22c3 *R/rename.R
 153af0bf90b99410649381fdd22cf809 *R/resource_id.R
 8e9051336f2cce171c8a34cb04023a50 *R/resource_labels.R
 0297e59596dc51b90a9dc41a9083f67c *R/resources.R
@@ -82,7 +84,7 @@ a496f52cf550f237b8b8e3e517c72f88 *R/summarize.R
 fd293d68dc01bbc485144047d0003dc0 *R/timestamp.R
 3b1edf7ef14d438fb1833f6aa96dcb34 *R/timestamps.R
 2f0674b79091b73607145130c2c8febb *R/to_activitylog.R
-748cd19896f87c4bde78e02b1f689e22 *R/to_eventlog.R
+e1c60d514eb0d4c94bf2ad85af6f4289 *R/to_eventlog.R
 0ee245eb31e9973df0d960d6e7982245 *R/trace_list.R
 58c31135d495c400e721ba8a7c892464 *R/traces.R
 276b466cfd214aaf9bcbc233907dba61 *R/ungroup.R
@@ -90,7 +92,7 @@ fd293d68dc01bbc485144047d0003dc0 *R/timestamp.R
 4431f473f0c9ad36399de35e5f6b039f *R/unite.eventlog.R
 50e70c395c0340bc51df8d5e3ffdb6a6 *R/utils.R
 a0f4e16c1f386b9d89b9f686b0479df1 *R/zzz.R
-adc855822f115c11952adae9dcdcc7be *README.md
+35d9d172d62f9c8159e545da4ddf30e3 *README.md
 5838c6f25b0169aead373861c5b3ac71 *man/act_collapse.Rd
 c62868e55dc6e799d0bccac2f54b9cb6 *man/act_recode.Rd
 29f7cfded9067ba10d48ad2df50fd1cc *man/act_unite.Rd
@@ -110,6 +112,7 @@ a0ede349fc6897f31ee4bff23c5fde3a *man/as.grouped.data.frame.Rd
 7646bf65bbcf7630a6476bf797fd0d14 *man/case_list.Rd
 86685b5f58b72eba9a998cb65627280f *man/cases.Rd
 57bbad357c18b67cd553adb51a9d7f66 *man/convert_timestamps.Rd
+be74935f816934e7e555f489fdf997a1 *man/count.Rd
 b046f1c812cf2bc1ceafb68c8c5bcbd7 *man/detect_resource_inconsistencies.Rd
 5eb0d4c2417be4aa02aec50a45c26c18 *man/durations.Rd
 4b5d66c1a9eddc3e382610ac51ffbec0 *man/eventlog.Rd

@@ -1,8 +1,7 @@
 Package: bupaR
 Type: Package
 Title: Business Process Analysis in R
-Version: 0.5.2
-Date: 2022-09-30
+Version: 0.5.3
 Authors@R: c(person("Gert","Janssenswillen", email = "gert.janssenswillen@uhasselt.be", role = c("aut","cre")),
 			 person("Gerard","van Hulzen",email = "gerard.vanhulzen@uhasselt.be", role = c("ctb")),
              person("Felix","Mannhardt",email = "f.mannhardt@tue.nl", role = c("ctb")),
@@ -11,7 +10,7 @@ Authors@R: c(person("Gert","Janssenswillen", email = "gert.janssenswillen@uhasse
 Description: Comprehensive Business Process Analysis toolkit. Creates S3-class for event log objects, and related handler functions. Imports related packages for filtering event data, computation of descriptive statistics, handling of 'Petri Net' objects and visualization of process maps. See also packages 'edeaR','processmapR', 'eventdataR' and 'processmonitR'.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Depends: R (>= 3.5.0)
 Imports: magrittr, dplyr, data.table, shiny, miniUI, pillar, purrr,
         tidyr, tibble, glue, forcats, rlang (>= 1.0.0), cli (>= 3.2.0),
@@ -22,7 +21,7 @@ URL: https://bupar.net/, https://github.com/bupaverse/bupaR/,
 Suggests: covr, lintr, edeaR, testthat (>= 3.1.3)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-09-30 09:44:56 UTC; lucp8407
+Packaged: 2023-04-02 20:02:03 UTC; lucp8407
 Author: Gert Janssenswillen [aut, cre],
   Gerard van Hulzen [ctb],
   Felix Mannhardt [ctb],
@@ -30,4 +29,4 @@ Author: Gert Janssenswillen [aut, cre],
   Greg Van Houdt [ctb]
 Maintainer: Gert Janssenswillen <gert.janssenswillen@uhasselt.be>
 Repository: CRAN
-Date/Publication: 2022-09-30 14:40:02 UTC
+Date/Publication: 2023-04-02 22:00:06 UTC
