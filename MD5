@@ -1,4 +1,4 @@
-391c178943a04a7567d6f3e5d1ca4b83 *DESCRIPTION
+da77c5753abd9876cd1982cfd158c399 *DESCRIPTION
 1680e5e294fb761b940754053bc90f88 *LICENSE
 772939502e54121e49c15aee97d778a7 *NAMESPACE
 79bff8182cf054e6d67c5d2e2bebcce0 *NEWS.md
@@ -25,7 +25,7 @@ a2266842fad986fb50a12d8bdcf74b12 *R/detect_resource_inconsistencies.R
 c04d51ff07ccf0da3226e332e18c50e2 *R/durations.R
 010a0bf7402433862d2e1ce4a2c5f429 *R/eventlog.R
 3335191a9e5c74ab039ed883209e6e5f *R/events_to_activitylog.R
-aba43e25cf3f15c848fed2c04e5d0893 *R/fill.R
+41c3e06e38b1c9296682a9d16e751f91 *R/fill.R
 7f42921c0e4515b08ee8b871819a6cf1 *R/filter.R
 e2a17d3a65a54009cedfc22499e5b7b9 *R/first_n.R
 760ed63e233af5a17ce01dcc76bebefb *R/fix_resource_inconsistencies.R
@@ -126,7 +126,6 @@ c3978703d8f40f2679795335715e98f4 *man/figures/lifecycle-experimental.svg
 53b3f893324260b737b3c46ed2a0e643 *man/figures/lifecycle-stable.svg
 1c1fe7a759b86dc6dbcbe7797ab8246c *man/figures/lifecycle-superseded.svg
 916a1b26eb88c5c125b8c0aad807da3a *man/figures/logo.png
-df22da6350f7dca7e85dcc426bddec65 *man/fill.Rd
 679ad900f36b19c58a8d36bf2231873d *man/filter.Rd
 8bd3a7ecd14831d3add62336f6d9ffd1 *man/first_n.Rd
 68bb6a7df01bfd8303f4d86943ade5fa *man/fix_resource_inconsistencies.Rd
@@ -137,7 +136,7 @@ bdf78cd79b705265d2561b58d15222e9 *man/group_by_case.Rd
 f77b95cf142917572a0a3dabb6f38be6 *man/group_by_ids.Rd
 ab77a46a146309da4dc7fc174b042b5c *man/group_by_resource.Rd
 85b2900dcf25c146d39f18bddf8683e4 *man/group_by_resource_activity.Rd
-13162396f6d27b9095bb817cbca5c610 *man/group_by_trace.Rd
+47b777119adb2d158c69bef6095a274b *man/group_by_trace.Rd
 2a143b9c3ab117462c3c5d10888f52ed *man/grouped_activitylog.Rd
 36ea9ce0a3fa0db8a2c6082ee334421b *man/grouped_eventlog.Rd
 31dc8139282e6a69fd73d85383e8fc54 *man/grouped_log.Rd
@@ -158,7 +157,7 @@ e5958acec24ec4e2011da145c20a48d4 *man/n_traces.Rd
 2b1a3765743f79c78d74d7bf5e0bf6d4 *man/print.eventlog_mapping.Rd
 2c11c4be890f0e78124acb7b4aba521a *man/print.log.Rd
 a7fbdba473a5a2ae3d0e4575cddd5fe9 *man/re_map.Rd
-002fd4217f0e26ad102a10310c0dc549 *man/reexports.Rd
+0584afac9f00f64c7282f78bc292697b *man/reexports.Rd
 e4ba8f280303b43806c091ab90401239 *man/rename.Rd
 0d4c0c3bc08dcf236dbf336a213d2a3e *man/resource_id.Rd
 772e513d65379d1050ebd05a8b0fe747 *man/resource_labels.Rd

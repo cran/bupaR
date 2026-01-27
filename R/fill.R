@@ -1,8 +1,3 @@
-#' @title Fill event log
-#' @param data \code{\link{log}}: Object of class \code{\link{eventlog}} or \code{\link{activitylog}}.
-#' @param ... Additional arguments passed to [tidyr][fill]
-#' @inheritParams tidyr::fill
-#' @name fill
 #' @importFrom tidyr fill
 #' @export
 tidyr::fill
